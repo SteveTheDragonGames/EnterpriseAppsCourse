@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Scripts/Interface.meta
+    - Assets/Scripts/Interface/IPanel.cs
+    - Assets/Scripts/Interface/IPanel.cs.meta
     - 
-    m_Values: 01
-  RevisionSummary: 'Finished Service Application: Creating Forms section'
+    m_Values: 01010101
+  RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
