@@ -20,13 +20,23 @@ public class UIManager : MonoBehaviour
     {
         _instance = this;
     }
-    
+    public GameObject borderPanel;
+    public GameObject clientInfoPanel;
+    public GameObject locationPanel;
     public Case activeCase;
 
     public void CreateNewCase()
     {
+        clientInfoPanel.SetActive(true);
+        borderPanel.SetActive(true);
         activeCase = new Case();
+
+        ClientInfoPanel clientPanel = clientInfoPanel.GetComponent<ClientInfoPanel>();
+        int caseID = clientPanel.GenerateCase();
+        activeCase.caseID = caseID.ToString();
+        clientPanel.caseNumberText.text = "CASE NUMBER: " + activeCase.caseID;
     }
+
 
     
 }

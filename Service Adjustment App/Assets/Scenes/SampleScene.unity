@@ -437,7 +437,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10.000061, y: 56}
+  m_AnchoredPosition: {x: -10.000076, y: 56}
   m_SizeDelta: {x: -80, y: -830.646}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &113067163
@@ -696,7 +696,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10.000061, y: -143.21106}
+  m_AnchoredPosition: {x: -10.000076, y: -143.21103}
   m_SizeDelta: {x: -80, y: -790.224}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &327396178
@@ -838,7 +838,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10.000061, y: -82.00012}
+  m_AnchoredPosition: {x: -10.000076, y: -82.00009}
   m_SizeDelta: {x: -80, y: -830.646}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &359698250
@@ -1337,8 +1337,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 107.37}
-  m_SizeDelta: {x: -100, y: -603.798}
+  m_AnchoredPosition: {x: -0.000015258789, y: 107.369995}
+  m_SizeDelta: {x: -100.000015, y: -603.798}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &720772311
 MonoBehaviour:
@@ -1488,8 +1488,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -10.000061, y: 263.99997}
-  m_SizeDelta: {x: -80, y: 100}
+  m_AnchoredPosition: {x: -0.000045776367, y: 263.99997}
+  m_SizeDelta: {x: -100.00008, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &840848578
 MonoBehaviour:
@@ -1612,18 +1612,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1950620090}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1161407258}
         m_TargetAssemblyTypeName: ClientInfoPanel, Assembly-CSharp
         m_MethodName: ProcessInfo
@@ -1860,10 +1848,10 @@ RectTransform:
   m_Father: {fileID: 1950620091}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 241.96, y: 289.72696}
-  m_SizeDelta: {x: 424.09, y: 47.18}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 289.72693}
+  m_SizeDelta: {x: -100, y: -848.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1115890459
 MonoBehaviour:
@@ -2615,7 +2603,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -10.000061, y: 263.99997}
+  m_AnchoredPosition: {x: -10.000076, y: 263.99997}
   m_SizeDelta: {x: -80, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1523835387
@@ -2771,8 +2759,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10.000061, y: -143.21106}
-  m_SizeDelta: {x: -80, y: -790.224}
+  m_AnchoredPosition: {x: -0.000045776367, y: -143.21103}
+  m_SizeDelta: {x: -100.00008, y: -790.224}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1542459361
 MonoBehaviour:
@@ -2909,10 +2897,10 @@ RectTransform:
   m_Father: {fileID: 1950620091}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 241.96, y: -80}
-  m_SizeDelta: {x: 424.09, y: 47.18}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -80}
+  m_SizeDelta: {x: -100, y: -848.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1592331856
 MonoBehaviour:
@@ -2990,7 +2978,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -10.000061, y: 263.99997}
+  m_AnchoredPosition: {x: -10.000076, y: 263.99997}
   m_SizeDelta: {x: -80, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1646221082
@@ -3316,8 +3304,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -278}
-  m_SizeDelta: {x: -60, y: -745.38}
+  m_AnchoredPosition: {x: 9.999992, y: -277.99997}
+  m_SizeDelta: {x: -80.000015, y: -745.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1754009970
 MonoBehaviour:
@@ -3681,6 +3669,12 @@ MonoBehaviour:
   caseNumber: {fileID: 1115890459}
   map: {fileID: 720772311}
   notes: {fileID: 1542459361}
+  apiKey: NOPE
+  xCoord: 0
+  yCoord: 0
+  zoom: 12
+  imgSize: 400
+  url: https://maps.googleapis.com/maps/api/staticmap?
 --- !u!1 &2094161214
 GameObject:
   m_ObjectHideFlags: 0
@@ -6371,30 +6365,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1161407254}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 7313256529086891278}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 7313256529629944713}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateNewCase
@@ -6554,7 +6524,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 8.500061, y: -281.67004}
+  m_AnchoredPosition: {x: 8.500076, y: -281.67007}
   m_SizeDelta: {x: 17, y: 563.3403}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7313256528865081674
@@ -7698,6 +7668,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 559576d4148ffd6c6bf481740b859507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  borderPanel: {fileID: 7313256529086891278}
+  clientInfoPanel: {fileID: 1161407254}
+  locationPanel: {fileID: 1950620090}
   activeCase:
     caseID: 123456
     name: Wile E. Coyote
