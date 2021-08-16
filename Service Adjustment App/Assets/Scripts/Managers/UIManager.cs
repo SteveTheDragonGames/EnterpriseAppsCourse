@@ -23,6 +23,8 @@ public class UIManager : MonoBehaviour
     public GameObject borderPanel;
     public GameObject clientInfoPanel;
     public GameObject locationPanel;
+    public GameObject TakePhotoPanel;
+
     public Case activeCase;
 
     public void CreateNewCase()
