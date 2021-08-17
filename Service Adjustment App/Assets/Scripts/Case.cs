@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;//We'll need this for RawImage!
 
-[System.Serializable]//Allows us to see this class in the inspector.
+[System.Serializable]//Allows us to save this data as a file and see it in the inspector.
 public class Case 
 {
     public string caseID;
@@ -11,6 +11,6 @@ public class Case
     public string date;
     public string location;
     public string locationNotes;
-    public RawImage photoTaken;
+    public byte[] photoTaken;
     public string photoNotes;
 }
