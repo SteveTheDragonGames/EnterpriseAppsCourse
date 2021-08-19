@@ -13,21 +13,24 @@ using Amazon;
 
 public class AWSManager : MonoBehaviour
 {
-    public string AWSCognitoCredentials;
+    private string _AWSCognitoCredentials;
+    
     public string S3Region = RegionEndpoint.USEast2.SystemName;
-        private RegionEndpoint _S3Region
-        {
-            get { return RegionEndpoint.GetBySystemName(S3Region); }
-        }
+    
+    private RegionEndpoint _S3Region
+    {
+        get { return RegionEndpoint.GetBySystemName(S3Region); }
+    }
 
     
     private void Awake()
     {
+        _AWSCognitoCredentials = Keys.KEY_AWS_COGNITO_CREDENTIALS;
         UnityInitializer.AttachToGameObject(this.gameObject);
         AWSConfigs.HttpClient = AWSConfigs.HttpClientOption.UnityWebRequest;
 
         CognitoAWSCredentials credentials = new CognitoAWSCredentials (
-        AWSCognitoCredentials, // Identity Pool ID
+        _AWSCognitoCredentials, // Identity Pool ID
         RegionEndpoint.USEast2 // Region
         );
 

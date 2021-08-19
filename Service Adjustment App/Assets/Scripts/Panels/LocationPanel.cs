@@ -13,7 +13,7 @@ public class LocationPanel : MonoBehaviour, IPanel
     public RawImage map;
     public InputField mapNotes;
 
-    public string apiKey;
+    private string _apiKey;
 
     public float xCoord;// from mobile device
     public float yCoord;//from mobile device
@@ -25,6 +25,7 @@ public class LocationPanel : MonoBehaviour, IPanel
     public IEnumerator Start()
     {
         caseNumber.text = "CASE NUMBER:" + UIManager.Instance.activeCase.caseID;
+        _apiKey = Keys.KEY_GOOGLE_API;
 
         if(!Permission.HasUserAuthorizedPermission(Permission.FineLocation))
         {
@@ -82,7 +83,7 @@ public class LocationPanel : MonoBehaviour, IPanel
     private void DownloadGoogleMaps()
     {
          //construct appropriate url
-        url += "center=" + xCoord + ","+ yCoord + "&zoom=" + zoom + "&size=" + imgSize+"x"+ imgSize + "&key=" +apiKey; 
+        url += "center=" + xCoord + ","+ yCoord + "&zoom=" + zoom + "&size=" + imgSize+"x"+ imgSize + "&key=" +_apiKey; 
         //Download static map
         //apply the map to raw image
         //https://maps.googleapis.com/maps/api/staticmap?center=40.714728,-73.998672&zoom=12&size=400x400&key=YOUR_API_KEY
