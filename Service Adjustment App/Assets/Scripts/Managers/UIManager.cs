@@ -53,18 +53,22 @@ public class UIManager : MonoBehaviour
         awsCase.photoTaken = activeCase.photoTaken;
         awsCase.photoNotes = activeCase.photoNotes;
 
-        BinaryFormatter bf = new BinaryFormatter();
+        BinaryFormatter binaryFormatter = new BinaryFormatter();
 
         //Create file
-        FileStream file = File.Create(Application.persistentDataPath + "/case#" + awsCase.caseID + ".dat");
+        string _filePath = Application.persistentDataPath + "/case#" + awsCase.caseID + ".dat";
+        FileStream file = File.Create(_filePath);
 
         //with file open write to file
-        bf.Serialize(file, awsCase);
+        binaryFormatter.Serialize(file, awsCase);
 
         //close the file
         file.Close();
 
         Debug.Log("Application Data path: "+ Application.persistentDataPath);
+
+        //Send to AWS
+        AWSManager.Instance.UploadToS3(_filePath, awsCase.caseID);
     }
 
 

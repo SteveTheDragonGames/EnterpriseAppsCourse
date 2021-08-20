@@ -18,11 +18,10 @@ MonoBehaviour:
     - Assets/Scripts/Keys.cs
     - Assets/Scripts/Keys.cs.meta
     - Assets/Scripts/Managers/AWSManager.cs
+    - Assets/Scripts/Managers/UIManager.cs
     - Assets/Scripts/Panels/LocationPanel.cs
-    - Assets/Scripts/test.cs
-    - Assets/Scripts/test.cs.meta
     - 
-    m_Values: 0000000000000000
+    m_Values: 00000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
