@@ -14,15 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scenes/SampleScene.unity
     - Assets/Scripts/Keys.cs
     - Assets/Scripts/Keys.cs.meta
-    - Assets/Scripts/Managers/AWSManager.cs
-    - Assets/Scripts/Managers/UIManager.cs
-    - Assets/Scripts/Panels/LocationPanel.cs
     - 
-    m_Values: 00000000000000
-  RevisionSummary: 
+    m_Values: 000000
+  RevisionSummary: Finished service app section
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
